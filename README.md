@@ -82,20 +82,16 @@ The resampled dataset included 71,202 transactions with 111 fraudulent transacti
 
 ### **MLPC/SMOTE Model**
 
-<img src="/data/MLPC_SMOTE" alt="MLPC_SMOTE"
-	title="MLPC SMOTE CONFUSION MATRIX" width="150" height="100" />
-
+![](/data/BRF_SMOTE.png)
 
 ### **Balanced Random Forest/SMOTE Model**
 
-![](/data/BRF_SMOTE.png#thumbnail)
+![](/data/BRF_SMOTE.png)
 
 
 It is worth noting that the Cluster Centroids, an undersampling technique, performed the worst overall in correctly predicting fraudulent transactions as fraudulent as shown by the "True Positive" count and accuracy with the exception of combining Cluster Centroids with Logistic Regression which had a higher count of True Positives, a higher AUC, and a higher accuracy score when compared to other models that were combined with Cluster Centroids.
 
-
-![](/data/auc_scores_final.png?thumbnail)
-![](/data/f1_scores_final.png?thumbnail)
+![](/data/auc_scores_final.png)
 <br>
 
 
