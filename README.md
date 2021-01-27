@@ -82,8 +82,8 @@ The resampled dataset included 71,202 transactions with 111 fraudulent transacti
 
 ### **MLPC/SMOTE Model**
 
-
-![](/data/MLPC_SMOTE.png#thumbnail)
+<img src="/data/MLPC_SMOTE" alt="MLPC_SMOTE"
+	title="MLPC SMOTE CONFUSION MATRIX" width="150" height="100" />
 
 
 ### **Balanced Random Forest/SMOTE Model**
