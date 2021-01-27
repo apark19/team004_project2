@@ -1,5 +1,3 @@
-![](fraud.png)
-
 # team004_project2
 
 ## Dependencies
