@@ -72,15 +72,15 @@ Undersampling techniques randomly eliminates transactions from the non-fraudulen
 
 Oversampling techniques duplicate random fraudulent transactions and replicate the training samples to balance the dataset; however, a disadvantage of oversampling techniques is overfitting the model due to the duplication of data points. <br>
 
-The confusion matrix and imbalanced classification report were used to evaluate the overall performance for each model.  For this project, we focused on the Area Under the Curve (AUC) Receiver Operating Characteristic (ROC) and F1-Score to evaluate and select the best model(s) for detecting fraudulent activity.  The closer the AUC ROC and F1-Score are to 1.0 the better the model is at predicting that a fraudulent transaction is  fraudulent.<br>
+The confusion matrix and imbalanced classification report were used to evaluate the overall performance for each model.  For this project, we focused on the Area Under the Curve (AUC) Receiver Operating Characteristic (ROC) and F1-Score to evaluate and select the best model(s) for detecting fraudulent activity. The closer the AUC-ROC and F1-Score are to 1.0 the better the model would be at predicting fradulent transaction on a different dataset.<br>
 
 
 ## Conclusion
 
-The resampled dataset included 71,202 transactions with 111 fraudulent transactions and 71,091 non-fraudulent transactions. The XGBoost model combined with SMOTEENN yielded the highest AUC score of .92442 and the Balanced Random Forest model combined with SMOTE yielded the highest F1-Score.of .8169.  
+The resampled dataset included 71,202 transactions with 111 fraudulent transactions and 71,091 non-fraudulent transactions. The MLPC model combined with SMOTE sampling yielded the highest AUC score of .9393 and the Balanced Random Forest model combined with SMOTE yielded the highest F1-Score.of .8169.  
 
 
-### **XGBoost/SMOTEENN Model**
+### **MLPC/SMOTE Model**
 
 
 ![](XGBoost.png)
@@ -100,7 +100,7 @@ It is worth noting that the Cluster Centroids, an undersampling technique, perfo
 
 ## Future Research
 
-If more time was available with the data the group could further explore why Cluster Centroids yielded a better result for the logistic regression model compared to all other models.  In addition, other classifiers could be explored to identify if other models can better predict fraudulent activity.<br>
+If more time was available with the data the group could further explore why Cluster Centroids yielded a better result for the logistic regression model compared to all other models.  In addition, other classifiers could be explored to identify if other models can better predict fraudulent activity. Further research of the current models could produce better AUC-ROC and F1-scores with the addition of different parameter configurations for the model instantiation.<br>
 
 ## References
 
