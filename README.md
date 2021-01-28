@@ -1,5 +1,7 @@
 # team004_project2
 
+![](fraud.png)
+
 ## Dependencies
 
 - xgboost</br>
